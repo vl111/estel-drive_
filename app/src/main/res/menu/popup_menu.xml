@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/suItem"
+        android:title="@string/administrators" />
+    <item
+        android:id="@+id/ruItem"
+        android:title="@string/russia" />
+    <item
+        android:id="@+id/uaItem"
+        android:title="@string/ukraine" />
+    <item
+        android:id="@+id/bgItem"
+        android:title="@string/bulgaria" />
+    <item
+        android:id="@+id/roItem"
+        android:title="@string/romania" />
+    <item
+        android:id="@+id/mdItem"
+        android:title="@string/moldova" />
+
+</menu>

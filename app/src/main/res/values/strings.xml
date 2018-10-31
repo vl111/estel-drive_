@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name" translatable="false">Estel drive UA</string>
+    <string name="facebook" translatable="false">Facebook</string>
+
+    <string name="status" translatable="false">---</string>
+    <string name="lastUpdate" translatable="false">DD.MM.YYYY</string>
+
+    <string name="SignOut">SignOut</string>
+    <string name="Administration">Administration</string>
+
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="open">Open</string>
+    <string name="rename">Rename</string>
+    <string name="download">Download</string>
+
+    <string name="administrators">Administrators</string>
+    <string name="russia">Russia</string>
+    <string name="ukraine">Ukraine</string>
+    <string name="bulgaria">Bulgaria</string>
+    <string name="moldova">Moldova</string>
+    <string name="romania">Romania</string>
+
+    <string name="RU">User of Russia</string>
+    <string name="UA">User of Ukraine</string>
+    <string name="BG">User of Bulgaria</string>
+    <string name="MD">User of Moldova</string>
+    <string name="RO">User of Romania</string>
+    <string name="SRU">Admin of Russia</string>
+    <string name="SUA">Admin of Ukraine</string>
+    <string name="SBG">Admin of Bulgaria</string>
+    <string name="SMD">Admin of Moldova</string>
+    <string name="SRO">Admin of Romania</string>
+    <string name="SU">Super user</string>
+
+    <string name="main">Main</string>
+    <string name="files">Files</string>
+    <string name="links">Links</string>
+    <string name="manual">Manual</string>
+
+    <string name="status_tag">Status:</string>
+
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="logout">Logout</string>
+
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="done">Done</string>
+
+    <string name="add_file">Add file</string>
+    <string name="add_folder">Add folder</string>
+    <string name="delete_file">Delete file</string>
+    <string name="dowload_all_files">Download all files</string>
+
+    <string name="open_file">Open</string>
+    <string name="rename_file">Rename</string>
+    <string name="download_file">Download</string>
+
+    <string name="facebook_app_id" translatable="false">1652816598074305</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1652816598074305</string>
+    <string name="login">Login</string>
+
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.esteldrive.esteldrive.ui.regestration.Regestration"
+    android:id="@+id/parentPanel">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:text="@string/e_mail"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tv1"
+            android:background="@drawable/edit_text_style"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etEmail"
+            android:layout_marginTop="20dp"
+            android:text="@string/password"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/tv2"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_style"
+            android:paddingLeft="10dp"
+            android:password="true"
+            android:maxLines="1"
+            android:inputType="textPassword"/>
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/etPassword"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/create_new_account"
+            android:textColor="@color/active_link"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/etPassword"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/forgot_password"
+            android:textColor="@color/active_link"
+            android:textSize="14dp" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/login_button"
+            android:text="@string/login"
+            android:textAllCaps="false" />
+
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/button3"-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:background="@drawable/button_round_corners_style2">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/facebook_icon"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:layout_toLeftOf="@+id/text_facebook"-->
+                <!--android:background="@drawable/com_facebook_button_icon_white" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/text_facebook"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:text="Вхід через Facebook"-->
+                <!--android:textColor="@color/white" />-->
+        <!--</RelativeLayout>-->
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
